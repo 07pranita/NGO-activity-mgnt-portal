@@ -1,6 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap');
+
 body{
     margin: 0rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #container1 {
@@ -16,6 +21,9 @@ a {
     color: #000;
     text-decoration: none;
 }  
+a:hover{
+    color: lightgreen;
+}
 
 header {
     position: fixed;
@@ -24,10 +32,20 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #66ff99;
+    /* background-color: #66ff99; */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
 }
   
-.logo {
+p{
+    padding: 2rem;
+    font-family: 'Hachi Maru Pop', cursive;
+    /* font-family: 'Courgette', cursive; */
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: blue;
+}
+
+/* .logo {
     width: 60vw;
 }
 
@@ -40,7 +58,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
-}
+} */
   
 nav > ul {
     width: 50vw;
