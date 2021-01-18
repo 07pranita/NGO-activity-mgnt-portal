@@ -36,29 +36,29 @@ header {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19);
 }
   
-p{
+/* p{
     padding: 2rem;
     font-family: 'Hachi Maru Pop', cursive;
-    /* font-family: 'Courgette', cursive; */
+    font-family: 'Courgette', cursive;
     font-size: 2.3rem;
     font-weight: bold;
     color: blue;
-}
+}*/
 
-/* .logo {
+.logo {
     width: 60vw;
 }
 
 #header-img {
     width: 100%;
-    height: 100%;
+    height:100%;
     max-width: 20rem;
     max-height: 5.4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
-} */
+}
   
 nav > ul {
     width: 50vw;
