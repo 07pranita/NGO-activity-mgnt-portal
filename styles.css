@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-img {
+.navbar-brand img {
     vertical-align: baseline;
 }
 
@@ -98,4 +98,9 @@ img {
 }
 .navigation .link-active{
     font-weight: bold;
+}
+
+.carousel-img{
+    height: 80%;
+    width: 80%;
 }
