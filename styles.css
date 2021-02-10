@@ -127,9 +127,6 @@ ul {
 /* slider */
 #slider{
     overflow: hidden;
-    width: 99%;
-    margin-left: auto;
-    margin-right: auto;
 }
 #slider figure{
     /* overflow: hidden; */
@@ -169,15 +166,15 @@ ul {
     }
 }
 .slider-img{
-    height: 500px;
+    height: 530px;
     width: 20%;
     float: left;
 }
 
-/* ngo info */
+/* ngo info section */
 .ngo_info1
 {
-    background-color: gray;
+    background-color: whitesmoke;
     width: 67%;
     padding: 50px 50px 50px 50px;
     height: 600px;
@@ -192,6 +189,7 @@ ul {
     padding: 50px 50px 50px 50px;
     height: 600px;
     margin-bottom: 60px;
+    font-size: 1.6rem;
 }
 .ngo_info2 #p1
 {
@@ -226,6 +224,40 @@ margin-bottom: 0;
     width: 30%;
     opacity: 1;
 }
+.ngo-info-text-1{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+.ngo-info-text-2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+.ngo-info-text a{
+    text-decoration: none;
+}
+.ngo-info-text button{
+    display: inline-flex;
+    padding: 8px 15px;
+    border: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #fff0e6;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* border-radius: 50px; */
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #fd3535;
+    background: linear-gradient(147deg, #fe8a39  0%, #fd3838 74%);
+  }
+  .ngo-info-text button:hover{
+    /* background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%); */
+    background: #0a3d62;
+  }
 
 
 /* headings */
