@@ -252,7 +252,8 @@ ul {
     background: linear-gradient(147deg, #fe8a39  0%, #fd3838 74%);
   }
   .card button:hover{
-    background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%);
+    /* background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%); */
+    background: #0a3d62;
   }
 .card-icon{
     margin-left: 40%;
