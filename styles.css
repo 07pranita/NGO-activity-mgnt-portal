@@ -26,6 +26,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 125;
+    box-shadow: 0px 5px 10px gray;
 }
 .navbar-nav{
     margin-left: auto;
@@ -46,8 +47,8 @@ ul {
     padding: 1rem 0;
     display: block;
     text-decoration: none;
-    font-family: 'Dancing Script', cursive;
-    font-size: 3rem;
+    font-family: 'Monospace', cursive;
+    font-size: 2rem;
     color: #e74c3c;
 }
 /* .navbar-toggler{
@@ -136,12 +137,12 @@ ul {
     overflow: hidden;
 }
 #slider figure{
-    /* overflow: hidden; */
+    overflow: hidden;
     /* position: relative; */
     width: 500%;
     margin: 0;
     left: 0;
-    animation: slider 9s infinite linear;
+    animation: slider 10s infinite linear;
 }
 @keyframes slider{
     0%{
@@ -173,7 +174,7 @@ ul {
     }
 }
 .slider-img{
-    height: 530px;
+    height: 600px;
     width: 20%;
     float: left;
 }
@@ -321,7 +322,7 @@ margin-bottom: 0;
     transform: scale(1.1);
 }
 .card .card-title{
-    margin-left: 15%;
+    margin-left: 20%;
     font-size: 1.2rem;
 }
 .card-text{
