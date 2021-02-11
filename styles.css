@@ -221,29 +221,21 @@ ul {
     margin-bottom: 60px;
     font-size: 1.6rem;
 }
-.ngo_info2 #p1
-{
-text-align: center;
-color: white;
-}
+.ngo_info2 #p1,
 .ngo_info2 #p2
 {
 text-align: center;
 color: white;
+font-size: 1.4rem;
 }
-.ngo_info2 #n1
-{
-text-align: center;
-margin-top: 130px;
-color: white;
-margin-bottom: 0;
-}
+.ngo_info2 #n1,
 .ngo_info2 #n2
 {
 text-align: center;
 margin-top: 90px;
 color: white;
 margin-bottom: 0;
+font-size: 2.8rem;
 }
 .line3
 {
