@@ -21,7 +21,11 @@ body {
 
 /* navbar */
 .header{
-    position: static;
+    /* position: static; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 125;
 }
 .navbar-nav{
     margin-left: auto;
@@ -34,6 +38,9 @@ ul {
     padding: 3rem 2rem;
     height: 0rem;
     min-height: 12vh;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
 }
 .navbar .navbar-brand{
     padding: 1rem 0;
@@ -130,7 +137,7 @@ ul {
 }
 #slider figure{
     /* overflow: hidden; */
-    position: relative;
+    /* position: relative; */
     width: 500%;
     margin: 0;
     left: 0;
@@ -217,7 +224,7 @@ margin-bottom: 0;
 }
 .line3
 {
-    position:relative;
+    /* position:relative; */
     margin-top: -5px;
     border:2px solid;
     border-color:#fd3838;
@@ -269,7 +276,7 @@ margin-bottom: 0;
 }
 .line
 {
-    position:relative;
+    /* position:relative; */
     margin-top: 11px;
     border:2px solid;
     border-color:#fd3838;
@@ -279,7 +286,7 @@ margin-bottom: 0;
 }
 .line1
 {
-    position:relative;
+    /* position:relative; */
     margin-top: 11px;
     border:2px solid;
     border-color:#fd3838;
@@ -289,15 +296,17 @@ margin-bottom: 0;
 }
 
 /* cards */
-.card-container{
+.card-cont{
+    /* position: relative; */
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-.catalouge{
+.catal{
+    /* position: inherit; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 2rem;
+    /* gap: 2rem; */
     /* margin-top: 0.2rem; */
 }
 .card{
@@ -360,6 +369,7 @@ margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
+    z-index: -200;
 }
 .project-card{
     position: absolute;
@@ -525,7 +535,7 @@ margin-bottom: 0;
     margin-left: 28%;
 }
 .button-info-2 .line-4{
-    position:relative;
+    /* position:relative; */
     margin-top: 11px;
     border:2px solid;
     border-color:#fd3838;
