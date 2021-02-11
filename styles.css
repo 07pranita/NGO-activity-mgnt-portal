@@ -133,16 +133,21 @@ ul {
 }
 
 /* slider */
-#slider{
+.slider{
     overflow: hidden;
 }
-#slider figure{
-    overflow: hidden;
-    /* position: relative; */
+.slider figure{
+    position:relative;
     width: 500%;
     margin: 0;
     left: 0;
-    animation: slider 10s infinite linear;
+    animation: 10s slider infinite;
+}
+.slider figure img{
+    width: 20%;
+    height: 610px;
+    float: left;
+    opacity: 0.5;
 }
 @keyframes slider{
     0%{
@@ -152,7 +157,7 @@ ul {
         left: 0;
     }
     25%{
-        left: -100%;
+        left:-100%;
     }
     45%{
         left: -100%;
@@ -173,15 +178,11 @@ ul {
         left: -400%;
     }
 }
-.slider-img{
-    height: 600px;
-    width: 20%;
-    float: left;
-}
 
 /* ngo info section */
 .ngo_info1
 {
+    /* position: relative; */
     background-color: whitesmoke;
     width: 67%;
     padding: 50px 50px 50px 50px;
