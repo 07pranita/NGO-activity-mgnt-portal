@@ -13,5 +13,6 @@ Also, there is an Admin dashboard where Admin can see and manage data which is g
 ### Project Environment
 
 |Operating System|Linux/Windows|
+|----------------|-------------|
 |Prog. Language|PHP|
 |Database|MySQL|
