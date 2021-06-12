@@ -12,7 +12,7 @@ body
 .ed
 {
    
-    margin-top: 25px;
+    margin-top: 85px;
     margin-left: 0;
     background-image:url("images/educate.jpg");
     color: white;
@@ -22,7 +22,7 @@ body
 h1
 {
 margin-left: 70px;
-padding-top: 90px;
+padding-top: 70px;
 }
 .line
 {
@@ -39,22 +39,31 @@ padding-top: 90px;
 .ngo_info1
 {
     background-color: whitesmoke;
-    width: 60.975%;
+    width: 70%;
     padding: 50px 50px 50px 50px;
     height: 500px;
     float:left;
     margin-bottom: 60px;
     margin-right: 0;
 }
+.ngo_info1 p{
+    padding-top: 1.5rem;
+    font-family: Poppins;
+    font-size: large;
+    text-align: justify;
+}
 .ngo_info2
 {
     float: right;
     background-color: orange;
-    width: 24.2%;
+    width: 30%;
     padding: 50px 50px 50px 50px;
     height: 500px;
     margin-bottom: 60px;
     margin-left: 0;
+}
+a{
+    text-decoration: none;
 }
 .volunteer
 {
@@ -114,7 +123,7 @@ padding-top: 90px;
     margin-left: 40%;
     margin-bottom: 8px;
 }
-.line4
+.line41
 {
     position:relative;
       border:2px solid;
@@ -145,14 +154,14 @@ padding-top: 90px;
 }
 .slidershow
 {
-    margin-top: 900px;
+    margin-top: 50px;
     width: 1250px;
     height: 500px;
     overflow: hidden;
 }
 .middle
 {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -256,4 +265,51 @@ margin-left:-60%;
 #r5:checked ~ .s1
 {
 margin-left:-80%;
+}
+
+
+.line-5{
+    position:relative;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    border:1px solid;
+    border-color: gray;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+.footer-div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    color: gray;
+    position: relative;
+    margin-top: 30px;
+}
+.footer-div a{
+    text-decoration: none;
+    color: gray; 
+}
+.footer-div a:hover{
+    color: #e74c3c;
+}
+.social-links{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.footer-div .link{
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
 }

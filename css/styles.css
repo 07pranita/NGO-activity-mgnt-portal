@@ -199,6 +199,9 @@ ul {
         left: -400%;
     }
 }
+.slider a{
+    text-decoration: none;
+}
 
 /* ngo info section */
 .ngo_info1
@@ -586,6 +589,9 @@ font-size: 2.8rem;
 .buttons button:hover{
     /* background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%); */
     background: #0a3d62;
+}
+.button-info-1 a{
+    text-decoration: none;
 }
 
 .line-5{
