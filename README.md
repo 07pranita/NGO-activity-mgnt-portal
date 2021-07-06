@@ -16,3 +16,8 @@ Also, there is an Admin dashboard where Admin can see and manage data which is g
 |----------------|-------------|
 |Prog. Language|PHP|
 |Database|MySQL|
+
+***
+
+##### Deployed website using Netlify
+https://happytohelp.netlify.app/
