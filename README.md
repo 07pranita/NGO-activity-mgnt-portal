@@ -19,5 +19,5 @@ Also, there is an Admin dashboard where Admin can see and manage data which is g
 
 ***
 
-##### Deployed website using Netlify
+### Deployed website using Netlify
 https://happytohelp.netlify.app/
